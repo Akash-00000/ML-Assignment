@@ -53,7 +53,7 @@ print("Preprocessed images shape:", images_proc.shape)
 # 3. Traditional Feature Extraction
 # ---------------------------
 
-# 3.1 HOG Feature Extraction
+# 3.1 HOGS Feature Extraction
 def extract_hog_features(imgs):
     features = []
     for img in imgs:
